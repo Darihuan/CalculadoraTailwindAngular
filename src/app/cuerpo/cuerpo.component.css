@@ -1,0 +1,14 @@
+.cuerpo {
+  @apply max-w-3xl mx-auto bg-gray-200 mt-20 shadow-lg rounded-xl px-12  py-8 overflow-hidden;
+}
+.tecla {
+  @apply w-3/12  border-4  text-5xl font-semibold border-transparent text-center shadow-lg rounded-md bg-gray-100 py-2
+  focus:border-green-400 focus:text-green-400 focus:bg-gray-700;
+}
+.tecla-func {
+  @apply w-3/12  border-4  text-5xl font-semibold border-transparent text-center shadow-lg rounded-md bg-gray-100 py-2
+  focus:border-yellow-400 focus:text-yellow-400 focus:bg-gray-700;
+}
+.linea {
+  @apply flex flex-row space-x-4 flex-nowrap p-2 justify-center;
+}

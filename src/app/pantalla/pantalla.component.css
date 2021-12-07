@@ -1,0 +1,4 @@
+.pantalla {
+
+ @apply bg-gray-900 py-8 m-3 rounded-md font-mono text-5xl px-10 font-semibold text-green-400 text-right;
+}
